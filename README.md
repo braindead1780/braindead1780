@@ -13,6 +13,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-braindead1780-0d1117?style=for-the-badge\&logo=github\&logoColor=00f0ff)](https://github.com/braindead1780)
 [![FiveM](https://img.shields.io/badge/FiveM-Developer-0d1117?style=for-the-badge\&logo=rockstargames\&logoColor=00f0ff)](#)
 [![Lua](https://img.shields.io/badge/Lua-Developer-0d1117?style=for-the-badge\&logo=lua\&logoColor=00f0ff)](#)
+[![QBox](https://img.shields.io/badge/QBox-Framework-0d1117?style=for-the-badge\&logoColor=00f0ff)](#)
 
 </div>
 
@@ -23,12 +24,13 @@
 ```text
 USER        : BRAiNDEAD1780
 FOCUS       : FIVE M / LUA DEVELOPMENT
-ENVIRONMENT : QBCORE / OX
+FRAMEWORK   : QBOX
+ECOSYSTEM   : OX
 STATUS      : BUILDING
 OBJECTIVE   : CREATE. IMPROVE. EXPERIMENT.
 ```
 
-I build scripts, systems and tools for **FiveM** and spend most of my time working with **Lua**, frameworks and the ecosystem around them.
+I build scripts, systems and tools for **FiveM**, primarily working with **Lua**, **QBox** and the wider **Overextended / ox ecosystem**.
 
 A lot of the work here is experimentation — taking an idea, breaking it, rebuilding it, and seeing how far it can go.
 
@@ -49,9 +51,11 @@ end
 | :----------- | :----------- |
 | `FiveM`      | `ONLINE`     |
 | `Lua`        | `ONLINE`     |
-| `QBCore`     | `ACTIVE`     |
+| `QBox`       | `ACTIVE`     |
+| `qbx_core`   | `ACTIVE`     |
 | `ox_lib`     | `ACTIVE`     |
 | `JavaScript` | `EXPLORING`  |
+| `NUI`        | `ACTIVE`     |
 | `New Ideas`  | `LOADING...` |
 
 ---
@@ -62,9 +66,9 @@ end
 
 **FiveM / Lua**
 
-One of the projects currently representing my own work.
+A FiveM project representing my own development work.
 
-`Lua` · `FiveM` · `Gameplay Systems`
+`Lua` · `FiveM` · `QBox`
 
 > **Status:** `ACTIVE`
 
@@ -74,11 +78,11 @@ One of the projects currently representing my own work.
 
 I'm currently going through my repositories and separating **my own work** from experiments, forks and archived projects.
 
-The goal is simple:
+The goal:
 
 > **less noise. better projects.**
 
-New projects will appear here as they become worth showcasing.
+More projects will appear here as they become worth showcasing.
 
 ---
 
@@ -86,12 +90,12 @@ New projects will appear here as they become worth showcasing.
 
 <div align="center">
 
-| CORE       | ECOSYSTEM | TOOLS   |
-| :--------- | :-------- | :------ |
-| Lua        | FiveM     | Git     |
-| JavaScript | QBCore    | VS Code |
-| TypeScript | ox_lib    | GitHub  |
-| HTML / CSS | NUI       | MySQL   |
+| CORE       | FRAMEWORK | ECOSYSTEM    |
+| :--------- | :-------- | :----------- |
+| Lua        | QBox      | ox_lib       |
+| JavaScript | qbx_core  | oxmysql      |
+| TypeScript | FiveM     | ox_target    |
+| HTML / CSS | NUI       | ox_inventory |
 
 </div>
 
@@ -108,7 +112,7 @@ New projects will appear here as they become worth showcasing.
 │   └── player systems                                     │
 │                                                          │
 │   FIVE M RESOURCES                                        │
-│   ├── QB / QBox                                          │
+│   ├── QBox / qbx_core                                    │
 │   ├── ox ecosystem                                       │
 │   └── custom integrations                                │
 │                                                          │
@@ -128,9 +132,9 @@ New projects will appear here as they become worth showcasing.
 [ 21:30 ] boot sequence initiated
 [ 21:31 ] loading Lua environment...
 [ 21:32 ] FiveM modules loaded
-[ 21:33 ] idea detected
-[ 21:34 ] questionable implementation started
-[ 21:35 ] coffee required
+[ 21:33 ] QBox environment detected
+[ 21:34 ] idea detected
+[ 21:35 ] questionable implementation started
 [ 21:36 ] back to work
 ```
 
