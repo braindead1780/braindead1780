@@ -1,7 +1,4 @@
 <div align="center">
-
-<img src="./assets/banner.png" alt="BRAiNDEAD1780" width="100%">
-
 <br>
 
 # `BRAiNDEAD1780`
